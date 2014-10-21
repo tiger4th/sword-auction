@@ -1,0 +1,183 @@
+body{
+font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+background-image: url('../img/b19.png');
+}
+
+.sidebar-nav {
+padding: 9px 0;
+}
+
+.bg-white{
+background-color: #ffffff;
+}
+
+.bg-blue{
+background-color: #d9edf7;
+}
+
+.right{
+  float: right;
+}
+
+.box{
+height: 350px;
+width: 300px;
+}
+
+.picture{
+height: 200px;
+width: 300px;
+overflow: hidden;
+display:table-cell;
+vertical-align:middle;
+layout-grid-line:200px;
+}
+
+.picture img{
+max-height: 200px;
+max-width: 300px;
+margin-bottom: 5px;
+}
+
+.box-blue{
+background-color: #d9edf7;
+margin-bottom: 1em;
+border:1px solid #b0b0b0;
+}
+
+.box-yellow{
+background-color: #fcf8e3;
+margin-bottom: 1em;
+border:1px solid #b0b0b0;
+}
+
+.box-red{
+background-color: #f2dede;
+margin-bottom: 1em;
+border:1px solid #b0b0b0;
+}
+
+.box-green{
+background-color: #dff0d8;
+margin-bottom: 1em;
+border:1px solid #b0b0b0;
+}
+
+
+img { 
+border:0;
+}
+
+.shadow{
+-moz-box-shadow: 0px 0px 10px #000000;
+-webkit-box-shadow: 0px 0px 10px #000000;
+box-shadow: 0px 0px 10px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+
+.center{
+text-align: center;
+}
+
+.right{
+text-align: right;
+}
+
+.side{
+width: 160px;
+}
+
+.bold {font-weight: bold;}
+
+.middle {  
+display: table-cell;
+vertical-align: middle;
+margin: 0;
+}  
+
+.red {
+color:red;
+}
+
+.black {
+color:black;
+}
+
+.white {
+color:white;
+}
+
+/* Bottom Bar Style */
+.bottom-bar{
+padding: 2px 0 0 2px;
+background: rgba(255, 255, 255, 1);
+z-index: 9999;
+position: fixed;
+bottom: 0px;
+width: 100%;
+height: 22px;
+box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+
+.bottom-bar-sp{
+padding: 2px 0 0 15px;
+bottom: 0px;
+width: 100%;
+}
+
+.logo{
+margin: 0 0 2em 1em;
+}
+
+
+/* device */
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.visible-phone {
+  display: none !important;
+}
+
+.visible-tablet {
+  display: none !important;
+}
+
+.hidden-desktop {
+  display: none !important;
+}
+
+.visible-desktop {
+  display: inherit !important;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important ;
+  }
+  .visible-tablet {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+  .visible-phone {
+    display: inherit !important;
+  }
+  .hidden-phone {
+    display: none !important;
+  }
+}
