@@ -1,3 +1,4 @@
+<?php http_response_code(404); ?>
 <?php
 ini_set('display_errors', 0);
 
